@@ -1,6 +1,20 @@
 <html>
 
+<head>
+    <style>
+        video {
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+    </style>
+</head>
+
 <body>
+
     <div>
         <video id="video" width="100%" height="100%" autoPlay playsInline />
     </div>
